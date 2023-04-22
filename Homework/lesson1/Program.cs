@@ -34,3 +34,16 @@ if ((num % 2) == 0) {Console.WriteLine("Число чётное.");}
 else{Console.WriteLine("Число нечётное.");}
 */
 
+// Задача 4.
+
+/*
+Console.WriteLine("Введите число :");
+int num = Convert.ToInt32(Console.ReadLine());
+if(num > 0) {
+while(num != 0)
+{
+    if ((num % 2) == 0){Console.Write($"{num}, ");}
+    num = num -1;
+}
+}
+else {Console.WriteLine("Число должно быть большне 0");}*/
