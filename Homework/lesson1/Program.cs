@@ -21,6 +21,24 @@ if (num1 > num2) {if (num1 > num3) {Console.WriteLine($"Максимальное
 if (num2 > num1) {if (num2 > num3) {Console.WriteLine($"Максимальное - второе введённое число  - {num2}");}}
 
 if (num3 > num1) {if (num3 > num2) {Console.WriteLine($"Максимальное - третье введённое число  - {num3}");}}
+
+if (num1 == num2 && num2 == num3) {Console.WriteLine($"Введены одинаковые числа  - {num1}, {num2}, {num3}");}
+
+if (num1 == num2)
+{
+    if (num2 > num3){Console.WriteLine($"Введены два одинаковых числа. Максимальное - {num2}");}
+    else {Console.WriteLine($"Введены два одинаковых числа. Максимальное - {num3}");}
+}
+if (num2 == num3)
+{
+    if (num2 > num1){Console.WriteLine($"Введены два одинаковых числа. Максимальное - {num2}");}
+    else {Console.WriteLine($"Введены два одинаковых числа. Максимальное - {num1}");}
+}
+if (num1 == num3)
+{
+    if (num1 > num3){Console.WriteLine($"Введены два одинаковых числа. Максимальное - {num1}");}
+    else {Console.WriteLine($"Введены два одинаковых числа. Максимальное - {num3}");}
+}
 */
 
 // Задача 3.
