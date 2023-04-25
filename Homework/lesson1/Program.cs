@@ -70,3 +70,4 @@ while(num != 0)
 }
 else {Console.WriteLine("Число должно быть большне 0");}
 */
+	
