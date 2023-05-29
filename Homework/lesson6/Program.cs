@@ -86,7 +86,13 @@ double Prompt(string message)
     double result = Convert.ToDouble(value);
     return result;
 }
-/*/
+*/
+/*
+Признаюсь, решение задачи 43, сдул из эталонного решения, но я его исправил. Эталонное решение выдавало (-0.5,1). 
+Исправил вычисление. Я просто не силён в математике и не совсем понял задание. 
+Скорректированный код -  https://github.com/akira78-code/C_Sharp_Lessons/blob/main/Homework/lesson6/Program.cs. 
+Эталонное решение с ошибками - https://github.com/akira78-code/C_Sharp_Lessons/blob/main/Homework/lesson6/etalon_resh.txt
+*/
 
 
 
