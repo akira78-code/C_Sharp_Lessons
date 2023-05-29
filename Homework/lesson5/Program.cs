@@ -105,3 +105,24 @@ Console.WriteLine($"Минимальное число -> {Min(array)}");
 Console.WriteLine($"Максимальное число -> {Max(array)}");
 Console.WriteLine($"Разница между максимальным и минимальным -> {(Max(array)-Min(array))}");
 */
+ 
+//string text = "Дан текст. В тексте нужно все пробелы заменить чёрточками, маленькие буквы 'к' заменить большими 'К', а большие 'С' заменить маленькими 'с'.";
+int[] array = {8,22,1,2,655,5,8,7,2,0,55};
+ 
+void PrintArray (int[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+void SelectionSort(int[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        int minPosition = i;
+        int temporary = array[i];
+        array[i] = 
+    }
+}
